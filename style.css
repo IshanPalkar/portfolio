@@ -96,7 +96,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: rgb(14, 9, 9);
     font-size: 35px;
     font-weight: 600;
 }
@@ -128,7 +128,7 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: rgb(3, 3, 3);
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -142,7 +142,7 @@ section .title::after{
     bottom: 10px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
+    color: rgb(5, 4, 4);
     z-index: 9999;
     font-size: 30px;
     border-radius: 6px;
@@ -167,7 +167,7 @@ section .title::after{
     display: flex;
     background: url("images/20200122_184157\ \(2\).jpg") no-repeat center;
     height: 100vh;
-    color: rgb(78, 76, 76);
+    color: rgb(10, 8, 8);
     min-height: 500px;
     background-size: cover; 
     justify-content: flex-end;
@@ -216,7 +216,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "WHO AM I";
+    content: "Who am i";
 }
 .about .about-content .left{
     width: 45%;
@@ -270,7 +270,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "WHAT I PROVIDE";
+    content: "What i provide";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -307,7 +307,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "WHAT I DO";
+    content: "What i do";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -384,7 +384,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "WHO'S WITH ME";
+    content: "Who's with me";
 }
 .teams .carousel .card{
     background: #222;
@@ -447,7 +447,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "GET IN TOUCH";
+    content: "Get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
